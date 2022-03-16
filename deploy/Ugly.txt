@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rally Iteration Health</title>
+    <!--  (c) 2015,2016 CA Technologies.  All Rights Reserved. -->
+    <!--  Build Date: Mon Aug 08 2016 20:17:20 GMT-0700 (PDT) -->
+    
+    <script type="text/javascript">
+        var APP_BUILD_DATE = "Mon Aug 08 2016 20:17:20 GMT-0700 (PDT)";
+        var CHECKSUM = [%= checksum %];
+    </script>
+    
+    <script type="text/javascript" src="/apps/2.1/sdk.js"></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function() {
+            
+            
+               Rally.launchApp('rally-iteration-health', {
+                   name: 'Rally Iteration Health'
+               });
+        });
+    </script>
+    
+    <style type="text/css">
+
+.app {
+}
+.tsinfolink {
+    position:absolute;
+    right:0px;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    background: #C0C0C0;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.ts_popover_description {
+    background-color: white;
+    padding: 3px;
+    width: 600px;
+}
+
+.ts_popover_description h1 {
+    margin: 3px 0px;
+    font-size: 14px;
+}
+
+.icon-plus {
+    font-size: 14px;
+    color: #888;
+    float: right;
+}
+.icon-minus {
+    font-size: 14px;
+    color: #888;
+    float: right;
+}
+
+.x-border-layout-ct {
+    background-color: #fff;
+}
+
+
+    </style>
+
+</head>
+<body></body>
+</html>
